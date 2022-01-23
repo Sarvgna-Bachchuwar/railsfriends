@@ -12,7 +12,7 @@
         <th><strong>Email</strong></th>
         <th><strong>Phone</strong></th>
         <th><strong>Twitter</strong></th>
-        <th> </th>
+        
       </tr>
     </thead>
 
@@ -28,7 +28,6 @@
         <td><%= friend.email %></td>
         <td><%= friend.phone %></td>
         <td><%= friend.twitter %></td>
-        <td><%= button_to "Delete", @friend, method: :delete, class:"btn btn-outline-danger btn-sm" %></td>
       </tr>
       <% end %>
       <% end %>
