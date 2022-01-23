@@ -1,17 +1,13 @@
 {
   "dependencies": {
-    "jquery-ujs": "^1.2.3",
-    "serve": "^13.0.2"
+    "jquery-ujs": "^1.2.3"
   },
   "scripts": {
-"dev": "react-scripts start",
-"start": "serve -s build",
-"build": "react-scripts build",
-"test": "react-scripts test --env=jsdom",
-"eject": "react-scripts eject",
-"heroku-postbuild": "npm run build"
-},
+   "start": "node index.js",
+
+    "heroku-postbuild": "npm run build"
+  },
   "engines": {
-    "node": "16.13.2"
-  }
+   "node": "16.13.2"
+   }
 }
